@@ -1,14 +1,9 @@
-/*
-read from all the pins at the same time..?
-DDRA=0;
-uint8_t data=PINA;
-*/
+String finalMessage;
+int sensorValue;
 
-const int sensorPin=2;
 int digitalPins[6]={2, 3, 4, 5, 6, 7}; // will always be 6 pins -> buttons
 void setup() {
   // initialize all the pins
-  //pinMode(2,INPUT_PULLUP);
   for(int i=0;i<6;i++){
     pinMode(digitalPins[i],INPUT_PULLUP);
   }
@@ -16,11 +11,8 @@ void setup() {
 }
 
 void loop() {
-  bool isBtnActive=false; //not needed ?
-  String finalMessage;
-  int sensorValue;
-
-  //Serial.println(digitalRead(2));
+  finalMessage="";
+  sensorValue=0;
 
   // reading from all the pins at the same time
   for(int i=0;i<6;i++){
@@ -30,8 +22,6 @@ void loop() {
     // Serial.print("Button "); Serial.print(i);
     // Serial.print(": "); Serial.println(sensorValue);
     
-
-
     if(sensorValue==LOW){
       // button is pressed
       finalMessage+=true;
@@ -44,6 +34,7 @@ void loop() {
     }
   }
 
+  // send msg to touchdesigner
   Serial.print(finalMessage);
   Serial.print('\n');
   delay(100);
