@@ -13,3 +13,13 @@ declaration: >-
 collaboration:
   - name: Orsolya Rend
     comment: >-
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets:
+  - comment: Valhalla Supermassive
+    url: https://valhalladsp.com/shop/reverb/valhalla-supermassive/ 
+    licence: >-
+  - comment: P_4L II
+    url: https://ricola.gumroad.com/l/P_4LII?layout=profile
+    licence: >-
