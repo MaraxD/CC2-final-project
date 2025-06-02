@@ -21,4 +21,4 @@ The GND wire goes onto the cardboard without the velostat piece while the digita
 
 ## Usage
 Find a table and a projector, plug in the Arduino board, open up Touchdesginer and Max (don't forget to press on trigger to activate it) and watch the magic happen. Play with it, touch some buttons at the same time, compose music with them, or play twister on the table (be careful not to break it).
-![alt text](media/IMG_3003.MOV)
+![alt text](media/IMG_3003.gif)
