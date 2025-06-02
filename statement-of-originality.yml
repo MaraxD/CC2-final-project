@@ -1,25 +1,20 @@
 # adapted from https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
 
 # put *your* name here
-name: Mara Olaru
+name: Mara Olaru & Orsolya Rend
 
 declaration: >-
   I declare that everything I have submitted in this assignment is entirely my
   own work, with the following exceptions:
-
-
-# add as many "name+comment" entries as necessary
-# (or remove it altogether if you haven't collaborated with anyone)
-collaboration:
-  - name: Orsolya Rend
-    comment: >-
 
 # add as many "url+licence+comment" entries as necessary
 # (or remove it altogether if you haven't used any external assets)
 assets:
   - comment: Valhalla Supermassive
     url: https://valhalladsp.com/shop/reverb/valhalla-supermassive/ 
-    licence: >-
   - comment: P_4L II
     url: https://ricola.gumroad.com/l/P_4LII?layout=profile
-    licence: >-
+  - comment: Velostat Homemade Pressure Sensor Mat
+      url: https://www.instructables.com/Velostat-Homemade-Pressure-Sensor-Mat/ 
+  - comment: Pressure Fabric
+      url: https://youtu.be/aXS2b1hIyGA?si=tELr3IrlGuv0J_6X 
